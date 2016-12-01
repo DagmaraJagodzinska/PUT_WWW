@@ -56,15 +56,18 @@ body .navbar-custom-2 {
 	border-radius: 0;
 	border: none;
 }
-ul > li {
+nav ul > li {
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
+nav ul > li:hover {
+	background-color: #bb1919;
+}
 body .navbar-custom-2 .navbar-nav>li>a {
-	color: #FFFFFF;
+	color: #FFFFFF; 
 }
 body .navbar-custom-2 .navbar-nav>li>a:hover {
-	color: #000000;
+	color: #000000;	
 }
 dropdown-toggle-custom
 
@@ -90,10 +93,42 @@ body .navbar-custom-2 .navbar-nav>.open>a, body .navbar-custom-2 .navbar-nav>.op
 div.container-fluid {
 	padding: 0;
 }
+/*carusel*/
+.carousel .carousel-inner div.item.active .example1 {
+	background-image: url(http://i.imgur.com/0imVJF9.jpg);
+	height: 493px;
+}
+.carousel .carousel-inner div.item.active .example2 {
+	background-image: url(http://i.imgur.com/0imVJF9.jpg);
+	height: 493px;
+}
+.carousel .carousel-inner div.item.active .example3 {
+	background-image: url(http://i.imgur.com/0imVJF9.jpg);
+	height: 493px;
+}
+.carousel .carousel-inner div.item.active .example4 {
+	background-image: url(http://i.imgur.com/0imVJF9.jpg);
+	height: 493px;
+}
+
 /*JOIN*/
 .join {
 	position: absolute;
 	top: 300px;
 	left: 0px;
 	z-index: 1;
+}
+/*about*/
+.col-sm-3 img {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.col-sm-9 {
+	padding-top: 70px;
+	padding-bottom: 70px;	
+}
+.about {
+	list-style-type: none;
+    list-style-image: url(images/PUT_list.jpg);
+    padding-left: 20px;
 }
