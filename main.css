@@ -1,0 +1,99 @@
+/*navbar*/
+body .navbar-custom {
+	margin-bottom: 0;
+	height: 97px;
+	background-color: #FFFFFF;
+	border: none;
+}
+.navbar-form .form-control-custom {
+	margin-top: 22px;
+	background-color: #FFFFFF;
+    background-image: none;
+    border: 2px solid #e1dabd;
+    border-radius: 0;
+    box-shadow: none ;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.navbar-form .btn-custom {
+	margin-top: 22px;
+	height: 34px;
+	width: 34px;
+	background-color: #d21c1a;
+	border-radius: 0px;
+	border: 0px;
+	cursor: pointer;
+	padding: 0px; 
+	color: #fff;
+	margin-left: -5px;
+}
+.navbar-form .btn-custom:hover, .navbar-form .btn-custom:active:hover, .navbar-form .btn-custom:active, .navbar-form .btn-custom:focus {
+	color: #fff;
+	background-color: #bb1919;
+}
+span .glyphicon-search-custom {
+	color: #FFFFFF;
+	font-size: 13px;
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1; */
+}
+/*navbar2*/
+body .navbar-custom-2 {
+	background-color: #d21c1a;
+	height: 45px; 
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none;
+}
+ul > li {
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+body .navbar-custom-2 .navbar-nav>li>a {
+	color: #FFFFFF;
+}
+body .navbar-custom-2 .navbar-nav>li>a:hover {
+	color: #000000;
+}
+dropdown-toggle-custom
+
+body .navbar-custom-2 .navbar-nav>.open>a, body .navbar-custom-2 .navbar-nav>.open>a:focus, body .navbar-custom-2 .navbar-nav>.open>a:hover {
+	color: #000000;
+	background-color: inherit;
+}
+.nav .dropdown .dropdown-menu-custom {
+	background-color: #d21c1a;
+}
+.nav .dropdown .dropdown-menu-custom:active {
+	background-color: #d21c1a;
+
+}
+.nav .dropdown .dropdown-menu-custom>li>a {
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+
+.nav .dropdown .dropdown-menu-custom>li>a:hover, .nav .dropdown .dropdown-menu-custom>li>a:focus  {
+	background-color: #bb1919;
+}
+div.container-fluid {
+	padding: 0;
+}
+/*JOIN*/
+.join {
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	z-index: 1;
+}
