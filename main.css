@@ -206,10 +206,43 @@ body .thumbnail-custom {
   cursor:pointer;
 }
 
-
-.logo:hover
-{
+.logo:hover {
   filter: none; /* IE6-9 */
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
+.calendar {
+	background-color: #eee7d7;
+	height: 800px;
+}
+.calendar_data{
+	background-color: #908c81;
+	height: 326px;
+	width: 390px;
+}
+body section.calendar .col-md-8 {
+	background-color: #FFFFFF;
+}
+body section.calendar .col-md-4 {
+	padding-left: 0;
+}
+body section.calendar .col-md-8  i.fa, body section.calendar div.col-md-8 div.row div.media-body h5 i.fa {
+	padding-right: 10px;
+
+}
+body > section.calendar div.col-md-8 div.row {
+	margin-left: 0px;
+}
+div.row .media-body .media-heading:hover {
+	color: #d21c1a;
+	cursor: pointer;
+}
+body section.calendar div div.events {
+	background-color: #FFFFFF;
+	height: 350px;
+}
+body > section.calendar > div:nth-child(2) {
+	margin-top: 5px;
+	background-color: #FFFFFF;
+}
+body > section.calendar > div:nth-child(2) > div > div > div.media-left.media-center > a > img
