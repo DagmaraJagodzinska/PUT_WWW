@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Polska Unia Transportu</title>    
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">  
+	    <link rel="stylesheet" type="text/css" href="contact.css">
+	    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-custom">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      	<a class="navbar-brand" href="#">
+					<img src="images/PUT_logo2.jpg">
+				</a>
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <form class="navbar-form navbar-right">
+		        <div class="form-group">
+		          <input type="text" class="form-control form-control-custom">
+		        </div>
+		        <button type="submit" class="btn btn-default btn-custom"><span class="glyphicon glyphicon-search"></span></button>
+		      </form>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container -->
+		</nav>
+
+		<nav class="navbar navbar-default navbar-custom-2">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+			<!--NAVBAR2 -->
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Strona główna</a></li>
+		        <li><a href="#">O Unii</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle dropdown-toggle-custom " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Oferta <span class="caret"></span></a>
+		          <ul class="dropdown-menu dropdown-menu-custom">
+		            <li><a href="#">Aktualności</a></li>
+		            <li><a href="#">Unia w mediach</a></li>
+		            <li><a href="#">Członkowie</a></li>
+		            <li role="separator" class="divider"></li>
+		          </ul>
+		        </li>
+		        <li><a href="#">Oferta</a></li>
+		        <li><a href="#">Kalendarium</a></li>
+		        <li><a href="#">Ważne dokumenty</a></li>
+		        <li><a href="#">Kontakt</a></li>
+		        <li><a href="#">Strefa członkowska</a></li>
+		      </ul>   
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="join">
+			<img src="images/PUT_glowna-slide-1.png">			
+		</div>
+		<section class="contact_map">
+			<div class="container-fluid">
+				<div id="map" class="map"></div>
+					<script>
+					    function initMap() {
+						var uluru = {lat: 51.140513, lng: 17.072252},
+						map = new google.maps.Map(document.getElementById('map'), {
+							zoom: 13,
+							center: uluru
+						});
+						var marker = new google.maps.Marker({
+          					position: uluru,
+          					map: map
+        				});
+
+					      }
+					</script>
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGZUdDJN3WQIIRQX3cKP-SR6as0sr_uZs&callback=initMap"
+					    async defer></script>	
+				<div class="bg"></div>
+				<div class="container">
+					<div class="address">
+						<h3 class="line"><span>Kontakt</span></h3>
+						<h5>Polska Unia Transportu</h5>
+						<p><i class="fa fa-home" aria-hidden="true"></i>ul. Sołtysowicka 19b<br>51-168 Wrocław</p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i>603 603 700</p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i>biuro@uniatransportu.pl</p>
+						<h5>Prezes - Leszek Luda</h5>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i>lluda@uniatransportu.pl<br>leszek@bezpiecznytir.pl</p>	
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="form">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<form>
+							<div class="form-group form-group-custom">
+							   	<label for="exampleInputEmail1"></label>
+						    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Imię i nazwisko">
+							</div>
+							<div class="form-group form-group-custom">
+								<label for="exampleInputName"></label>
+							    <input type="text" class="form-control" id="Telefon" placeholder="Telefon">
+							</div>
+							<div class="form-group form-group-custom">
+							    <label for="exampleInputName"></label>
+							    <input type="text" class="form-control" id="Telefon" placeholder="Email">
+							</div>
+						</form>	
+					</div>	
+					<div class="col-md-6 col-sm-12">
+						<form>						
+							<div class="form-group form-group-custom">
+								<label for="comment"></label>
+								<textarea class="form-control" rows="7" id="comment" placeholder="Wiadomość"></textarea>
+							</div>
+						</form>
+					</div>	
+					<div class="text-right">
+						<button type="submit" class="btn btn-default btn-custom-submit">Submit</button>
+					</div>	
+				</div>
+			</div>						
+		</section>
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<nav class="navbar navbar-default navbar-footer">
+						<ul class="nav navbar-nav navbar-nav-footer">
+					    	<li><a href="#">O unii</a></li>
+					    	<li><a href="#">Oferta</a></li>						   		
+					    	<li><a href="#">Kalendarium</a></li>
+						   	<li><a href="#">Ważne dokumenty</a></li>	
+						   	<li><a href="#">Kontakt</a></li>		
+							<li><a href="#">Strefa członkowska</a></li>
+						</ul>
+						<div class="text-right">
+							<div class="social">
+								<button class="facebook icn">
+									<i class="fa fa-facebook"></i>
+								</button>
+								<button class="google">
+									<i class="fa fa-google-plus"></i>
+								</button>
+								<button class="twitter icn">
+									<i class="fa fa-twitter"></i>
+								</button>						
+							</div>	
+						</div>	
+					</nav>
+					<p>Copyright &copy; Polska Unia Transportu</p>
+				</div>
+			</div>
+		</footer>				
+	</body>
+</html>			
