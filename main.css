@@ -1,3 +1,6 @@
+body {
+	overflow-x: hidden;
+}
 /*navbar*/
 body .navbar-custom {
 	margin-bottom: 0;
@@ -69,7 +72,6 @@ body .navbar-custom-2 .navbar-nav>li>a {
 body .navbar-custom-2 .navbar-nav>li>a:hover {
 	color: #000000;	
 }
-dropdown-toggle-custom
 
 body .navbar-custom-2 .navbar-nav>.open>a, body .navbar-custom-2 .navbar-nav>.open>a:focus, body .navbar-custom-2 .navbar-nav>.open>a:hover {
 	color: #000000;
@@ -94,6 +96,49 @@ div.container-fluid {
 	padding: 0;
 }
 /*carusel*/
+.carousel .container-fluid {
+	position: relative;
+}
+#myCarousel > a.right.carousel-control{
+	z-index: 2;
+}
+/*JOIN*/
+.join {
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	z-index: 1;
+}
+.join:hover {
+	cursor: pointer;
+}
+.join_us {
+	-ms-transform: skewX(-20deg); /* IE 9 */
+    -webkit-transform: skewX(-20deg); /* Safari */
+    transform: skewX(-20deg); /* Standard syntax */
+	background-color: rgba(255,255,255,0.8);
+	overflow: hidden;
+	position: absolute;
+	top: 147px;
+	left: 58vw;
+	height: 530px;
+	width: 1000px;
+	z-index: 1;
+}
+.join_text {
+	position: absolute;
+	color: #000000;
+	top: 450px;
+	left: 60vw;
+	z-index: 3;
+}
+.join_text i.fa{
+	color: #bb1919;
+	padding-right: 10px;
+}
+.join_text h3 {
+	text-transform: uppercase;
+}
 .carousel .carousel-inner div.item.active .example1 {
 	background-image: url(http://i.imgur.com/0imVJF9.jpg);
 	height: 493px;
@@ -109,14 +154,6 @@ div.container-fluid {
 .carousel .carousel-inner div.item.active .example4 {
 	background-image: url(http://i.imgur.com/0imVJF9.jpg);
 	height: 493px;
-}
-
-/*JOIN*/
-.join {
-	position: absolute;
-	top: 300px;
-	left: 0px;
-	z-index: 1;
 }
 /*about*/
 .col-sm-3 img {
@@ -168,7 +205,7 @@ div.container-fluid {
 }
 .btn-custom-small:hover {
 	background-color: #FFFFFF;
-	color: #fff;
+	color: #000000;
 }
 .btn-custom-small:active {
 	background-color: #FFFFFF;
@@ -186,7 +223,7 @@ body .thumbnail-custom {
 	border: 1px solid #d21c1a;
 }
 .text-center .btn-custom-lg {
-	background-color: #eee7d7;
+	background-color: transparent;
 	border: 1px solid #d21c1a;	
 	color: #d21c1a;	
 	text-transform: uppercase;
@@ -205,12 +242,10 @@ body .thumbnail-custom {
   transition: all .5s ease;
   cursor:pointer;
 }
-
 .logo:hover {
   filter: none; /* IE6-9 */
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
-
 .calendar {
 	background-color: #eee7d7;
 	height: 800px;
@@ -228,7 +263,6 @@ body section.calendar .col-md-4 {
 }
 body section.calendar .col-md-8  i.fa, body section.calendar div.col-md-8 div.row div.media-body h5 i.fa {
 	padding-right: 10px;
-
 }
 body > section.calendar div.col-md-8 div.row {
 	margin-left: 0px;
@@ -245,4 +279,108 @@ body > section.calendar > div:nth-child(2) {
 	margin-top: 5px;
 	background-color: #FFFFFF;
 }
-body > section.calendar > div:nth-child(2) > div > div > div.media-left.media-center > a > img
+iframe {
+	width: 100%;
+	height: 660px;
+	z-index: -1;
+	position: absolute;
+	border: none; 
+}
+ .map div.container {
+	z-index: 1;
+}
+.filter {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+body  section.map div.container div.row h4 {
+	padding-top: 50px;
+}
+body section.map div.container div.row div.col-md-6 .address {
+	background-color: rgba(255,255,255,0.8);
+	margin-top: 100px;
+	padding: 23px 30px 27px 27px;
+	margin-left: 150px;
+}
+body section.map div.container div.row div.col-md-6 .address i.fa {
+ 	padding-right: 10px;
+	color: #d21c1a;
+}
+body section.map div.container div.row div.col-md-6 .address h5 {
+	padding-top: 20px;
+}
+body section.map div.container div.row div.col-md-6 form {
+	margin-top: 80px;
+}
+body section.map div.container div.row div.col-md-6 form div.form-group-custom{
+	margin-bottom: 0px;
+}
+body section.map div.container div.row div.col-md-6 form div.form-group-custom input {
+	width: 60%;
+	height: 34px;
+	border: none;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+}
+body section.map div.container div.row div.col-md-6 form div.form-group-custom .form-control {
+	width: 60%;
+	border: none;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+}
+body section.map div.container div.row div.col-md-6 button.btn.btn-custom-submit {
+	background-color: transparent;
+	border: 1px solid #d21c1a;	
+	color: #d21c1a;	
+	text-transform: uppercase;
+	margin-left: 250px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+footer {
+	background-color: #908c81;
+	height: 120px;
+}
+body  footer .navbar.navbar-footer {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #FFFFFF;
+}
+body footer .navbar.navbar-footer .nav.navbar-nav-footer > li > a {
+	color: #e4e0d5;
+}
+body footer .navbar.navbar-footer .nav.navbar-nav-footer > li > a:hover {
+	color: #000000;
+}
+body footer .navbar.navbar-footer .nav.navbar-nav-footer > li:hover {
+	background-color: transparent;
+}
+footer .social {
+	margin-top: 10px;
+}
+footer .social button {
+	background-color: #e4e0d5;
+	border: none; 
+	border-radius: 2px;
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
+	margin-right: 10px;
+}
+footer .social button i.fa {
+	color: #908c81;
+}
+footer p	 {
+	color: #e4e0d5;
+	}
