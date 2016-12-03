@@ -281,20 +281,27 @@ body > section.calendar > div:nth-child(2) {
 }
 iframe {
 	width: 100%;
-	height: 660px;
-	z-index: -1;
+	height: 600px;
+	z-index: -2;
 	position: absolute;
 	border: none; 
 }
- .map div.container {
-	z-index: 1;
+.layer {
+	background-color: rgba(238,231,215,0.7);
+	position: absolute;
+	z-index: -1;
+	height: 578px;
+	width: 100%;
+	overflow-y: hidden;
 }
+
 .filter {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
-body  section.map div.container div.row h4 {
+body section.map div.container div.row h4 {
 	padding-top: 50px;
+	z-index: 2;
 }
 body section.map div.container div.row div.col-md-6 .address {
 	background-color: rgba(255,255,255,0.8);
