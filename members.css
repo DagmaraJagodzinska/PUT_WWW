@@ -1,0 +1,212 @@
+body {
+	overflow-x: hidden;
+}
+/*navbar*/
+body .navbar-custom {
+	margin-bottom: 0;
+	height: 97px;
+	background-color: #FFFFFF;
+	border: none;
+}
+.navbar-form .form-control-custom {
+	margin-top: 22px;
+	background-color: #FFFFFF;
+    background-image: none;
+    border: 2px solid #e1dabd;
+    border-radius: 0;
+    box-shadow: none ;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.navbar-form .btn-custom {
+	margin-top: 22px;
+	height: 34px;
+	width: 34px;
+	background-color: #d21c1a;
+	border-radius: 0px;
+	border: 0px;
+	cursor: pointer;
+	padding: 0px; 
+	color: #fff;
+	margin-left: -5px;
+}
+.navbar-form .btn-custom:hover, .navbar-form .btn-custom:active:hover, .navbar-form .btn-custom:active, .navbar-form .btn-custom:focus {
+	color: #fff;
+	background-color: #bb1919;
+}
+span .glyphicon-search-custom {
+	color: #FFFFFF;
+	font-size: 13px;
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1; */
+}
+/*navbar2*/
+body .navbar-custom-2 {
+	background-color: #d21c1a;
+	height: 45px; 
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none;
+}
+nav ul > li {
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+nav ul > li:hover {
+	background-color: #bb1919;
+}
+body .navbar-custom-2 .navbar-nav>li>a {
+	color: #FFFFFF; 
+}
+body .navbar-custom-2 .navbar-nav>li>a:hover {
+	color: #000000;	
+}
+body .navbar-custom-2 .navbar-nav>.open>a, body .navbar-custom-2 .navbar-nav>.open>a:focus, body .navbar-custom-2 .navbar-nav>.open>a:hover {
+	color: #000000;
+	background-color: inherit;
+}
+.nav .dropdown .dropdown-menu-custom {
+	background-color: #d21c1a;
+}
+.nav .dropdown .dropdown-menu-custom:active {
+	background-color: #d21c1a;
+
+}
+.nav .dropdown .dropdown-menu-custom>li>a {
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+
+.nav .dropdown .dropdown-menu-custom>li>a:hover, .nav .dropdown .dropdown-menu-custom>li>a:focus  {
+	background-color: #bb1919;
+}
+div.container-fluid {
+	padding: 0;
+}
+/*JOIN*/
+.join {
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	z-index: 3;
+}
+.breadcrumb-custom {
+	background-color: #eee7d7; 
+	height: 67px; 
+}
+.nav-breadcrumb-custom {
+	background-color: transparent;
+	margin-top: 32px;
+}
+.nav-breadcrumb-custom a {
+	color: #908c81;
+	text-decoration: none;
+}
+.nav-breadcrumb-custom a:after {
+	content:" > ";
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.nav-breadcrumb-custom a:after {
+	content:" > ";
+}
+.nav-breadcrumb-custom a:nth-child(3):after{
+	content: none;
+}
+.nav-breadcrumb-custom .active-custom {
+	color: #000000;
+}
+.line {
+  line-height: 0.5;
+  margin-left: 85px;
+  margin-bottom: 30px; 
+}
+.line span {
+  display: inline-block;
+  position: relative;  
+}
+.line span:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 2px solid #918d82;
+  top: 5px;
+  width: 73px;
+}
+.line span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.members-logo h4 {
+	margin-top: 60px;
+}
+.members-logo .col-md-4 .image {
+	height: 215px;	
+	width: 360px;
+	border: 1px solid #eee7d7;
+}
+.image img {
+	padding-top: 66px;
+	padding-left: 60px;
+}
+.members-logo .col-md-8 .data p i.fa {
+ 	padding-right: 10px;
+	color: #d21c1a;
+}
+.members-logo .row {
+	margin-bottom: 26px;
+	padding-bottom: 26px;
+	border-bottom: 1px solid #eee7d7;
+}
+.data {
+	padding-top: 18px;
+}
+footer {
+	background-color: #908c81;
+	height: 120px;
+}
+body footer .navbar.navbar-footer {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #FFFFFF;
+}
+body footer .navbar.navbar-footer .nav.navbar-nav-footer > li > a {
+	color: #e4e0d5;
+}
+body footer .navbar.navbar-footer .nav.navbar-nav-footer > li > a:hover {
+	color: #000000;
+}
+body footer .navbar.navbar-footer .nav.navbar-nav-footer > li:hover {
+	background-color: transparent;
+}
+footer .social {
+	margin-top: 10px;
+}
+footer .social button {
+	background-color: #eee7d7; 
+	border: none; 
+	border-radius: 2px;
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
+	margin-right: 10px;
+}
+footer .social button i.fa {
+	color: #908c81;
+}
+footer p {
+	color: #e4e0d5;
+}
