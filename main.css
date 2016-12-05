@@ -2,9 +2,8 @@ body {
 	overflow-x: hidden;
 }
 /*navbar*/
-body .navbar-custom {
+.navbar-custom {
 	margin-bottom: 0;
-	height: 97px;
 	background-color: #FFFFFF;
 	border: none;
 }
@@ -52,7 +51,7 @@ span .glyphicon-search-custom {
     line-height: 1; */
 }
 /*navbar2*/
-body .navbar-custom-2 {
+ .navbar-custom-2 {
 	background-color: #d21c1a;
 	height: 45px; 
 	margin-bottom: 0;
@@ -66,14 +65,14 @@ nav ul > li {
 nav ul > li:hover {
 	background-color: #bb1919;
 }
-body .navbar-custom-2 .navbar-nav>li>a {
+ .navbar-custom-2 .navbar-nav>li>a {
 	color: #FFFFFF; 
 }
-body .navbar-custom-2 .navbar-nav>li>a:hover {
+ .navbar-custom-2 .navbar-nav>li>a:hover {
 	color: #000000;	
 }
 
-body .navbar-custom-2 .navbar-nav>.open>a, body .navbar-custom-2 .navbar-nav>.open>a:focus, body .navbar-custom-2 .navbar-nav>.open>a:hover {
+ .navbar-custom-2 .navbar-nav>.open>a,  .navbar-custom-2 .navbar-nav>.open>a:focus,  .navbar-custom-2 .navbar-nav>.open>a:hover {
 	color: #000000;
 	background-color: inherit;
 }
@@ -217,7 +216,7 @@ div.container-fluid {
 	color: #d21c1a;
 	border: none;
 }
-body .thumbnail-custom {
+ .thumbnail-custom {
 	border: none;
 	border-radius: 0;
 	border: 1px solid #d21c1a;
@@ -255,27 +254,27 @@ body .thumbnail-custom {
 	height: 326px;
 	width: 390px;
 }
-body section.calendar .col-md-8 {
+ section.calendar .col-md-8 {
 	background-color: #FFFFFF;
 }
-body section.calendar .col-md-4 {
+ section.calendar .col-md-4 {
 	padding-left: 0;
 }
-body section.calendar .col-md-8  i.fa, body section.calendar div.col-md-8 div.row div.media-body h5 i.fa {
+ section.calendar .col-md-8  i.fa,  section.calendar div.col-md-8 div.row div.media- h5 i.fa {
 	padding-right: 10px;
 }
-body > section.calendar div.col-md-8 div.row {
+ > section.calendar div.col-md-8 div.row {
 	margin-left: 0px;
 }
-div.row .media-body .media-heading:hover {
+div.row .media- .media-heading:hover {
 	color: #d21c1a;
 	cursor: pointer;
 }
-body section.calendar div div.events {
+ section.calendar div div.events {
 	background-color: #FFFFFF;
 	height: 350px;
 }
-body > section.calendar > div:nth-child(2) {
+ > section.calendar > div:nth-child(2) {
 	margin-top: 5px;
 	background-color: #FFFFFF;
 }
@@ -299,30 +298,30 @@ iframe {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
-body section.map div.container div.row h4 {
+ section.map div.container div.row h4 {
 	padding-top: 50px;
 	z-index: 2;
 }
-body section.map div.container div.row div.col-md-6 .address {
+ section.map div.container div.row div.col-md-6 .address {
 	background-color: rgba(255,255,255,0.8);
 	margin-top: 100px;
 	padding: 23px 30px 27px 27px;
 	margin-left: 150px;
 }
-body section.map div.container div.row div.col-md-6 .address i.fa {
+ section.map div.container div.row div.col-md-6 .address i.fa {
  	padding-right: 10px;
 	color: #d21c1a;
 }
-body section.map div.container div.row div.col-md-6 .address h5 {
+ section.map div.container div.row div.col-md-6 .address h5 {
 	padding-top: 20px;
 }
-body section.map div.container div.row div.col-md-6 form {
+ section.map div.container div.row div.col-md-6 form {
 	margin-top: 80px;
 }
-body section.map div.container div.row div.col-md-6 form div.form-group-custom{
+ section.map div.container div.row div.col-md-6 form div.form-group-custom{
 	margin-bottom: 0px;
 }
-body section.map div.container div.row div.col-md-6 form div.form-group-custom input {
+ section.map div.container div.row div.col-md-6 form div.form-group-custom input {
 	width: 60%;
 	height: 34px;
 	border: none;
@@ -334,7 +333,7 @@ body section.map div.container div.row div.col-md-6 form div.form-group-custom i
     color: #555;
     background-color: #fff;
 }
-body section.map div.container div.row div.col-md-6 form div.form-group-custom .form-control {
+ section.map div.container div.row div.col-md-6 form div.form-group-custom .form-control {
 	width: 60%;
 	border: none;
 	border-radius: 0px;
@@ -345,7 +344,7 @@ body section.map div.container div.row div.col-md-6 form div.form-group-custom .
     color: #555;
     background-color: #fff;
 }
-body section.map div.container div.row div.col-md-6 button.btn.btn-custom-submit {
+ section.map div.container div.row div.col-md-6 button.btn.btn-custom-submit {
 	background-color: transparent;
 	border: 1px solid #d21c1a;	
 	color: #d21c1a;	
@@ -358,20 +357,20 @@ footer {
 	background-color: #908c81;
 	height: 120px;
 }
-body  footer .navbar.navbar-footer {
+  footer .navbar.navbar-footer {
 	background-color: transparent;
 	border: none;
 	border-radius: 0;
 	border-bottom: 1px solid #FFFFFF;
 }
 
-body footer .navbar.navbar-footer .nav.navbar-nav-footer > li > a {
+ footer .navbar.navbar-footer .nav.navbar-nav-footer > li > a {
 	color: #e4e0d5;
 }
-body footer .navbar.navbar-footer .nav.navbar-nav-footer > li > a:hover {
+ footer .navbar.navbar-footer .nav.navbar-nav-footer > li > a:hover {
 	color: #000000;
 }
-body footer .navbar.navbar-footer .nav.navbar-nav-footer > li:hover {
+ footer .navbar.navbar-footer .nav.navbar-nav-footer > li:hover {
 	background-color: transparent;
 }
 footer .social {
@@ -391,4 +390,20 @@ footer .social button i.fa {
 }
 footer p	 {
 	color: #e4e0d5;
-	}
+}
+@media(max-width: 767px) {
+.navbar-brand {
+	padding: 10px;
+}
+.navbar-brand img {
+	height: 100%;
+}
+.navbar-default .navbar-form {
+    border-color: transparent;
+}
+}
+@media(min-width: 1200px) {
+.navbar-custom {
+	height: 97px;
+}
+}
