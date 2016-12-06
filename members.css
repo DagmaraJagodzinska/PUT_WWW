@@ -138,6 +138,7 @@ div.container-fluid {
 .data {
 	padding-top: 18px;
 }
+
 footer {
 	background-color: #908c81;
 }
@@ -228,7 +229,6 @@ footer p {
 	text-align: center;
 }
 }
-
 /*MEDIA DESKTOP*/
 @media(min-width: 1200px) {
 body {
@@ -269,4 +269,3 @@ footer {
 	height: 120px;
 }
 }
-
