@@ -121,7 +121,6 @@ div.container-fluid {
 }
 .members-logo h4 {
 	margin-top: 60px;
-	text-align: center;
 }
 .members-logo .col-md-4 .image {
 	border: 1px solid #eee7d7;
@@ -223,6 +222,9 @@ footer p {
 }
 .navbar-default .navbar-nav .open .dropdown-menu >li>a{
 		color: #FFFFFF;
+}
+.members-logo h4{
+	text-align: center;
 }
 .members-logo .row .col-md-4 {
 	margin-bottom: 10%;
